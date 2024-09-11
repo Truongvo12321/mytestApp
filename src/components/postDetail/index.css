@@ -1,0 +1,139 @@
+.post-detail-layout {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.post-detail-cont {
+  padding: 0 20px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.post-detail-close:hover {
+  opacity: 0.6;
+}
+.post-detail-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.post-detail-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.post-detail-des {
+  display: flex;
+  justify-content: start;
+  font-weight: 600;
+  font-size: 18px;
+}
+.post-detail-img {
+  width: 500px;
+  height: 200px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #717171;
+}
+.post-detail-cmt-list {
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0;
+  max-height: 180px;
+  min-height: 180px;
+  overflow-y: auto;
+}
+.post-detail-cmt-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.detail-cmt-icon:hover {
+  opacity: 0.6;
+}
+.detail-cmt-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+.detail-cmt-option {
+  position: absolute;
+  right: 0;
+}
+.detail-cmt-avatar {
+  width: 30px;
+  height: 30px;
+}
+
+.detail-cmt-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  text-align: start;
+}
+
+.detail-cmt-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.detail-cmt-input {
+  width: 90%;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.detail-cmt-icon:hover {
+  opacity: 0.6;
+}
+.detail-cmt-icon {
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.edit-cmt-layout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-cmt-contn {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.edit-cmt-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.detail-cmt-content {
+  margin: 0 0 20px 0;
+}
+.detail-cmt-nav:hover {
+  opacity: 0.6;
+}
+.detail-cmt-nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

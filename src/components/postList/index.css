@@ -1,0 +1,7 @@
+.post-list-cont {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 16px;
+}
