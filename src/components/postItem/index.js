@@ -50,7 +50,6 @@ function PostItem({ postData, setEditPost, setEditPostItem, onUpdateStatus, setP
           deletePostItem={deletePostItem}
           setNotiDisplay={setNotiDisplay}
           onConfirmDelete={() => {
-            alert(postData.postItemID);
             onUpdateStatus(postData.postItemID, 0);
           }}
         ></NotificationPopup>
